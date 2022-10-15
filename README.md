@@ -16,6 +16,11 @@ Male poets from America:{'lord': 48, 'war': 13, 'protect': 24}
 
 It was interesting to observe that:
 - the female poets from India and America have a high count of using the words 'rights' and  'responsibility'
+- the female poets from India and the male poets from Britain and America have a high count of using the word 'lord'
+- the male poets from India and Britain have a high count of using the word 'protect'
+- the male poets of Britain have a high count of the word 'war'
+
+In my opinion, my text classification program works quite well, but there are a few problems associated with it that I could have improved for example, the text bodies didn't have the same word count, and some of the poets used different languages for example Hindi,Urdu,French and Spanish. Thus, words that meant the same, couldn't be calculated in the similarity index and are thus not accounted for. To improve the efficiency of the code, I could have accounted for the word translations, but that would be too time consuming. Overall, this was a very nicely devised project and helped me understand the real life applications of the code, such as modern plagiarism devices. 
 
 
 methods in the program:
